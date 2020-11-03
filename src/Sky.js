@@ -37,9 +37,9 @@ const Sky = () => {
     })
 
     return (
-        <div >
-           <div className="sky" ref={cloudAnimation}>
-               <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/641/bg_sky.jpg" alt="clouds"/>
+        <div className="sky">
+           <div className="clouds" ref={cloudAnimation}>
+               <img src="" alt="clouds"/>
            </div>
         </div>
     )
